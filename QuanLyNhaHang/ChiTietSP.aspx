@@ -92,7 +92,7 @@ span.onclick = function() {
     <h2 >PHỤC VỤ TIỆC NHÀ HÀNG</h2>
             <div class="hero-image">
   <div class="hero-text">
-    <h1 style="font-size:50px">Phục Vụ Tiệc Chuyên Nghiệp</h1>
+    <h1 style="font-size:50px">Phục Vụ Tiệc chuyên nghiệp</h1>
     <h4>0944889999</h4>
     <a href="ThucDonTiec.aspx">Xem</a>
   </div>
