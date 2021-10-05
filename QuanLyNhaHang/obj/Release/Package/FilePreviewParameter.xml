@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="HoTroDatMonNhaHang" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Duc\ khong\ gay\\Desktop\\Đồ\ án\ chuyên\ ngành\\Do_An_Chuyen_Nganh\\QuanLyNhaHang\\QuanLyNhaHang\\QuanLyNhaHang\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Duc\ khong\ gay\\Desktop\\Đồ\ án\ chuyên\ ngành\\Do_An_Chuyen_Nganh\\QuanLyNhaHang\\QuanLyNhaHang\\QuanLyNhaHang\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="HoTroDatMonNhaHang/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Duc\ khong\ gay\\Desktop\\Đồ\ án\ chuyên\ ngành\\Do_An_Chuyen_Nganh\\QuanLyNhaHang\\QuanLyNhaHang\\QuanLyNhaHang\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="connec-Web.config Connection String" description="connec Connection String used in web.config by the application to access the database." value="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Duc khong gay\Desktop\Đồ án chuyên ngành\Do_An_Chuyen_Nganh\QuanLyNhaHang\QuanLyNhaHang\QuanLyNhaHang\App_Data\Database1.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Duc\ khong\ gay\\Desktop\\Đồ\ án\ chuyên\ ngành\\Do_An_Chuyen_Nganh\\QuanLyNhaHang\\QuanLyNhaHang\\QuanLyNhaHang\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='connec']/@connectionString" />
+  </parameter>
+</parameters>
